@@ -15,6 +15,19 @@ import frc.lib.util.SwerveModuleConstants;
 public final class Constants {
     public static final double stickDeadband = 0.1;
 
+    public final int xSpeakerFarLimit = 0;
+    public final int xSpeakerCloseLimit = 0;
+    public final int ySpeakerUpperLimit = 0;
+    public final int ySpeakerLowerLimit = 0;
+    public final int xAmpFarLimit = 0;
+    public final int xAmpCloseLimit = 0;
+    public final int yAmpUpperLimit = 0;
+    public final int yAmpLowerLimit = 0;
+    public final int xTrapFarLimit = 0;
+    public final int xTrapCloseLimit = 0;
+    public final int yTrapUpperLimit = 0;
+    public final int yTrapLowerLimit = 0;
+
     public static final class Swerve {
 
         public static final COTSTalonFXSwerveConstants chosenModule =  
