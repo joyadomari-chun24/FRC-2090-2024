@@ -132,6 +132,13 @@ public final class Constants {
         public static final int leftMotorID = 21;
         public static final int rightMotorID = 22;
 
+        public static final double kS = 0;
+        public static final double kV = 0;
+        public static final double kA = 0;
+        public static final double kP = 0;
+        public static final double kI = 0;
+        public static final double kD = 0;
+
         public static final double spunUpVelocity = 999; //TODO: find actual velocity
         public static final double adjustmentDeadband = 0.1;
 

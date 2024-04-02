@@ -29,9 +29,9 @@ public class Intake extends SubsystemBase {
     public Intake() {
         intakeController = new TalonSRX(motorID);
         intakeSpeed = maxSpeed;
-        m_doubleSolenoid = new DoubleSolenoid(PneumaticsModuleType.CTREPCM, 0, 1);
+        m_doubleSolenoid = new DoubleSolenoid(PneumaticsModuleType.CTREPCM, 1, 0);
         m_doubleSolenoid.set(DoubleSolenoid.Value.kOff);
-        breakbeam = new DigitalInput(1);
+        breakbeam = new DigitalInput(0);
         
         //pressure switch actually turns off the pressurizer at around 125-130 psi ????
         //gauge might be bad, but it works 
